@@ -27,6 +27,10 @@ ol{
 	bottom:0;
 }
 
+.row2 {
+	padding:1.8%;
+}
+
 .row2:hover .image {
   opacity: 0.3;
 }
