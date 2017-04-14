@@ -6,17 +6,32 @@
 		display: none;
 	}
 
+	#flowers {
+		display:none;
+	}
+
 	}
 
 @media screen and (max-width: 765px) {
     #wheel {
         display: none;
     }
+    #cookies {
+    	display: none;
+    }
 }
 
-#garden {
-	margin-top:8%;
+#garden { 
+	margin-top: 8%;
 	margin-bottom: 2%;
+}
+
+#cookies {
+	margin-top: 2%;
+}
+
+#flowers {
+	margin-top: 2%;
 }
 
 #basics1 {
