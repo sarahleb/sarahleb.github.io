@@ -18,3 +18,7 @@ h2 {
 .fa:hover {
 	color: #e55f47;
 }
+
+#copyright {
+	font-size: 10px;
+}

@@ -1,5 +1,5 @@
 @media screen and (max-width: 765px) {
-	#noshow {
+	.noshow {
 		display:none;
 	}
 }
