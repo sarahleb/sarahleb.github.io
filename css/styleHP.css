@@ -21,6 +21,12 @@
     }
 }
 
+@media screen and (min-width: 765px) {
+	li{
+	list-style: none;
+}
+}
+
 #garden { 
 	margin-top: 8%;
 	margin-bottom: 2%;
@@ -44,6 +50,6 @@
 	overflow: hidden;
 }
 
-li{
-	list-style: none;
+li {
+	list-style-type: circle;
 }
