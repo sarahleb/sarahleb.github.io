@@ -3,12 +3,18 @@
 	display: block;
 }
 
+#places {
+	margin-bottom:3%;
+	padding-right:15px;
+	padding-left:15px;
+}
+
 p {
 	margin-left: 15px;
 	margin-right: 15px;
 }
 
-h2 {
+h3 {
 	text-align: center;
 	text-decoration: underline;
 }

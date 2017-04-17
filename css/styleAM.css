@@ -39,10 +39,7 @@ ol{
   opacity: 1;
 }
 
-.words {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-  border-radius: 5px;
+#move {
+	padding-right:15px;
+	padding-left:15px;
 }

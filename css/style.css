@@ -117,10 +117,16 @@ a:hover {
 }
 
 h1 {
+	font-family: 'Amatic SC', cursive;
 	margin:0 auto;
 }
 
 h2{
+	font-family: 'Amatic SC', cursive;
+	margin:0 auto;
+}
+
+h3{
 	font-family: 'Amatic SC', cursive;
 	margin:0 auto;
 }
