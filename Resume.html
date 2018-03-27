@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/styleR.css">
+	<link rel="stylesheet" href="css/modal.css">
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> 
 
 	<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet"> 
@@ -97,7 +98,13 @@
 	      <div class="panel-body">	 
 	      	<p class="rhead">Society of American Archivists</p>
 	      	<p class="rplace">Portland, Oregon</p>
-	      	<p class="rposition">Graduate Poster Presenter</p>
+	      	<p class="rposition"> Graduate Poster Presenter</p>
+	      			<img id="myImg" src="img/poster.jpg" alt="Global Information Engagement: Processing in an Activist Archives and Developing an Institutional Processing Manual at the UWC-Robben Island Museum Mayibuye Archives" width="300" height="200">
+	      			<div id="myModal" class="modal">
+	      				<span class="close">&times;</span>
+	      				<img class="modal-content" id="img01">
+	      				<div id="caption"></div>
+	      			</div>
 	      	<p class="rdate">2017</p>     	
 	      	<p class="rhead">Society of American Archivists</p>
 	      	<p class="rplace">Atlanta, Georgia</p>
@@ -270,6 +277,24 @@
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
 });
+</script>
+<script>
+var modal = document.getElementById('myModal');
+
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+} 
 </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
