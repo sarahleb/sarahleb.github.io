@@ -112,8 +112,8 @@ a:hover {
 	color: #001a33;
 	font-family: 'Amatic SC', cursive;
 	font-size: 30px;
-	margin-right: -120px;
-	margin-left: -120px;
+	margin-right: -100%;
+	margin-left: -100%;
 }
 
 h1 {
