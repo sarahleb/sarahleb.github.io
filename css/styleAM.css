@@ -18,6 +18,10 @@
 ol{
 	margin-bottom:0;
 }
+
+li {
+	list-style-type:none;
+}
 .carousel-caption{
 	bottom:0;
 }
